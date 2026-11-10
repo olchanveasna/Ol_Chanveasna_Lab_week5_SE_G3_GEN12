@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Study Dashboard</h1>
+            <div class="nav-links">
+                <a href="#overview" class="nav-button">Overview</a>
+                <a href="#tasks" class="nav-button">Tasks</a>
+                <a href="#schedule" class="nav-button">Schedule</a>
+            </div>
+        </div>
+        <main class="content">
+            <section>
+                <h2>Overview</h2>
+                <p>Get a quick summary of your study progress and upcoming tasks.</p>
+                <div class="cards">
+                    <div class="card card-1">
+                        <h3>Completed Tasks</h3>
+                        <p>10</p>
+                    </div>
+                    <div class="card card-2">
+                        <h3>Pending Tasks</h3>
+                        <p>5</p>
+                    </div>
+                    <div class="card card-3">
+                        <h3>Upcoming Schedule</h3>
+                        <p>2 events</p>
+                        <div class="events">
+                            <div class="event">
+                                <strong class="event-title">Data Structures Class</strong>
+                                <span class="event-date">Nov 15</span>
+                                <span class="event-time">9:00 AM</span>
+                            </div>
+                            <div class="event">
+                                <strong class="event-title">Web-Design Class</strong>
+                                <span class="event-date">Nov 16</span>
+                                <span class="event-time">9:00 AM</span>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="card card-4">
+                        <h3>Study Hours</h3>
+                        <p>15 hours</p>
+                    </div>
+                    <div class="card card-5">
+                        <h3>Average Score</h3>
+                        <p>85%</p>
+                        <div class="progress">
+                            <div class="progress-fill" style=" width: 85%;"></div>
+                        </div>
+                        <div class="subject">
+                            <span>Web-Design</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 85%;"></div>
+                            </div>
+                            <span>85%</span>
+                        </div>
+                        <div class="subject">
+                            <span>Data Structures</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 90%;"></div>
+                            </div>
+                            <span>90%</span>
+                        </div>
+                        <div class="subject">
+                            <span>Database-design</span>
+                            <div class="bar">
+                                <div class="fill" style="width: 92%;"></div>
+                            </div>
+                            <span>92%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="tasks">
+            </section>
+            <section id="schedule">     
+            </section>                 
+        </main>
+    </div>
+</body>
+</html>
